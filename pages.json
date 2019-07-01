@@ -6,7 +6,19 @@
 				"navigationBarTitleText": ""
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/index/set/set",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/details/details",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/forecast/forecast",
+            "style" : {}
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "",

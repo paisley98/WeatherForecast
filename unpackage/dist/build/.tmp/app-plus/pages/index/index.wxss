@@ -1,0 +1,100 @@
+
+page {
+	background: -webkit-gradient(linear, left top, right bottom, from(#44FCA9), to(#44FCEA));
+	background: -webkit-linear-gradient(top left, #44FCA9, #44FCEA);
+	background: -o-linear-gradient(top left, #44FCA9, #44FCEA);
+	background: linear-gradient(to bottom right, #44FCA9, #44FCEA);
+}
+uni-page-body {
+	background: none;
+}
+.content {
+	color: white;
+	font-size: 100rpx;
+}
+.place {
+	text-align: center;
+}
+.message {
+	text-align: center;
+	margin-top: 30%;
+}
+.todayMes view {
+	display: inline;
+}
+.todayWeathertext {
+	font-size: 200rpx;
+}
+.todayWeatherImg {
+	height: 200rpx;
+	width: 200rpx;
+	animation: myfirst 5s infinite;
+	-webkit-animation: myfirst 7s infinite;
+	position: relative;
+	top: 20px;
+}
+@keyframes myfirst {
+from {
+		opacity: 1.0;
+}
+50% {
+		opacity: 0.2;
+}
+to {
+		opacity: 1.0;
+}
+}
+@-webkit-keyframes myfirst {
+from {
+		opacity: 1.0;
+}
+50% {
+		opacity: 0.2;
+}
+to {
+		opacity: 1.0;
+}
+}
+.temperatureWord {
+	font-size: 150rpx;
+}
+.navigate view {
+	display: inline-block;
+	margin-top: 20%;
+}
+.left {
+	width: 50%;
+}
+.leftbut {
+	width: 40%;
+	position: relative;
+	left: -40rpx;
+	background: none;
+	color: white;
+	font-size: 50rpx;
+}
+.right {
+	width: 50%;
+}
+.rightbut {
+	width: 40%;
+	position: relative;
+	right: -40rpx;
+	background: none;
+	color: white;
+	font-size: 50rpx;
+}
+.setter {
+	position: fixed;
+	left: 0;
+	bottom: 2%;
+	right: 0;
+}
+.set {
+	width: 20%;
+	-webkit-border-radius: 25px;
+	        border-radius: 25px;
+	color: #FFFFFF;
+	background-color: #94F76C;
+}
+

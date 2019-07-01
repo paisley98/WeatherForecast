@@ -25,10 +25,10 @@
 
 		<view class="navigate">
 			<view class="left">
-				<navigator url="">←</navigator>
+				<button type="default" class="leftbut">⇦</button>
 			</view>
 			<view class="right">
-				<navigator url="">→</navigator>
+				<button type="default" class="rightbut">⇨</button>
 			</view>
 		</view>
 		<view class="setter">
@@ -67,11 +67,11 @@
 
 	.content {
 		color: white;
-		font-size: 50%;
+		font-size: 100upx;
 	}
 
 	.place {
-		text-align: center;
+		text-align: left;
 	}
 
 	.message {
@@ -85,13 +85,13 @@
 	}
 
 	.todayWeathertext {
-		font-size: 250%;
+		font-size: 200upx;
 
 	}
 
 	.todayWeatherImg {
-		height: 100px;
-		width: 100px;
+		height: 200upx;
+		width: 200upx;
 		animation: myfirst 5s infinite;
 		-webkit-animation: myfirst 7s infinite;
 		position: relative;
@@ -127,24 +127,38 @@
 	}
 
 	.temperatureWord {
-		font-size: 250%;
+		font-size: 150upx;
 	}
 
 	.navigate view {
 		display: inline-block;
-		margin-top: 30%;
+		margin-top: 20%;
 	}
 
 	.left {
+		width: 50%;
+	}
+
+	.leftbut {
 		width: 40%;
-		margin-left: 5%;
-		font-size: 150%;
+		position: relative;
+		left: -40upx;
+		background: none;
+		color: white;
+		font-size: 50upx;
 	}
 
 	.right {
 		width: 50%;
-		text-align: right;
-		font-size: 150%;
+	}
+
+	.rightbut {
+		width: 40%;
+		position: relative;
+		right: -40upx;
+		background: none;
+		color: white;
+		font-size: 50upx;
 	}
 
 	.setter {
@@ -155,7 +169,7 @@
 	}
 
 	.set {
-		width: 40%;
+		width: 20%;
 		border-radius: 25px;
 		color: #FFFFFF;
 		background-color: #94F76C;
